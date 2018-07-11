@@ -1,6 +1,6 @@
 # Una pila (stack) en Ruby
-
-Una pila es una estructura de datos que se accede en modo LIFO (último en entrar, primero en salir). 
+Modificado
+Una pila es una estructura de datos que se accede en modo LIFO (último en entrar, primero en salir). Es una buena definición
 
 ## Ejemplos
 
