@@ -1,7 +1,7 @@
 require "./stack"
 require "minitest"
 require "minitest/autorun"
-
+ok
 class TestStack < Minitest::Test
   def setup
     @stack = Stack.new

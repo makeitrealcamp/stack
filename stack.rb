@@ -2,7 +2,7 @@ class Stack
   def push(e)
     @top = Node.new(e, @top)
   end
-
+ok, que pasa
   def pop
     return nil unless @top
     old_top = @top
