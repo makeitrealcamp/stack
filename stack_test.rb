@@ -11,16 +11,3 @@ class TestStack < Minitest::Test
     assert_nil @stack.pop
   end
 
-  def test_that_can_push_and_pop_one_item
-    @stack.push(1)
-    assert_equal 1, @stack.pop
-  end
-
-  def test_that_can_push_and_pop_multiple_items
-    @stack.push(1)
-    @stack.push(2)
-    assert_equal 2, @stack.pop
-    assert_equal 1, @stack.pop
-  end
-
-end
